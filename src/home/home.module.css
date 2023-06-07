@@ -1,0 +1,308 @@
+.home{
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+}
+.homeScreen{
+    width: 375px;
+    height: auto;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.menuBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:5px 20px;
+}
+
+.menuBar .menu{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 13px;
+}
+.menuBar .menu img{
+    height: 35px;
+    width: 35px;
+}
+
+.menuBar .user img{
+    height: 56px;
+    width: 56px;
+}
+
+.title{
+    width: 179px;
+    height: 70px;
+    margin-left: 20px;
+    
+}
+
+.title .t1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.title .t2{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #666666;
+}
+
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 20px; */
+    padding: 20px;
+}
+
+.searchBar{
+    width: 270px;
+    height: 50px;
+    background: #F3F4F5;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.searchBar img{
+    height: 15px;
+    width: 15px;
+    margin-left: 30px;
+}
+
+.searchBar input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+}
+
+.filter{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter img{
+    height: 30px;
+    width: 30px;
+}
+
+.offerContainer{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.offer{
+    width: 220px;
+    height: 130px;
+    left: 300px;
+    top: 267px;
+    background-color: lightgrey;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.offer .discount{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.offer .valid{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #000000;
+}
+.offer .code{
+    left: 40px;
+    top: 371px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 20px;
+    color: #666666;
+}
+
+.offer .discountBtn{
+    width: 100px;
+    height: 25px;
+    background: #000000;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.products{
+    display: flex;
+}
+
+.products .product{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    /* padding: 20px; */
+}
+
+.products .product .imgCon{
+    height: 170px;
+    width: 170px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3HVsktsdob4PkWs4CLXx15tS4-awdQnq8Wg&usqp=CAU');
+    background-size: cover;
+    border-radius: 30px;
+}
+.products .product .imgCon2{
+    height: 170px;
+    width: 170px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRupXHv4YZxUNxavW8a8tTOvbTPqLqFPakn0w&usqp=CAU');
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.products .product img{
+    height: 15px;
+    width: 15px;
+    background-color: #000000;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 135px;
+}
+
+.products .product .details{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.products .product .details .prodName{
+    color: #000000;
+    font-weight: 600;
+    size: 14px;
+    line-height: 21px;
+}
+
+.products .product .details .brand{
+    color: #666666;
+    font-weight: 400;
+    size: 11px;
+    line-height: 16.5px;
+}
+
+.products .product .details .price{
+    color: #000000;
+    font-weight: 600;
+    size: 14px;
+    line-height: 21px;
+}
+
+
+.allPro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.allPro .arrival{
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+
+.allPro .all{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 11px;
+    color: #666666;
+    margin-top: 3px;
+}
+
+.page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 375px;
+    height: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px -2px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 30px 30px 0px 0px;
+    padding-top: 10px;
+}
+
+.page .home{
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    height: 30px;
+    background: #EEEEEE;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.page .home .homeLogo{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -15px;
+}
+.page .home .homeLogo img{
+    height: 15px;
+    width: 15px;
+} 
+
+.page .home .homeTitle{ 
+    margin-left: 8px;
+    font-family: 'Arial';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.cartPage{
+    margin-top: 3px;
+}
+
+.cartPage img{
+    height: 20px;
+    width: 20px;
+    
+}

@@ -1,0 +1,59 @@
+.payment{
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.paymentScreen{
+    width: 370px;
+    height: 370px;
+    background: #fff;
+    overflow: hidden;
+    background-color: rgba(199, 21, 134, 0.06);
+}
+
+p{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 2px 0 2px 15px;
+    height: 30px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.input1{
+    padding: 2px 0 2px 15px;
+    height: 30px;
+    width: 130px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.ep{
+    display: inline-block;
+    margin: 20px  20px 5px;
+}
+.sc{
+    display: inline-block;
+    margin: 20px 50px 5px;
+}
+
+button{
+    padding: 2px 0 2px 15px;
+    height: 50px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 25px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    background-color : mediumvioletred;
+
+}
